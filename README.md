@@ -4,10 +4,10 @@ This project mainly describe some detail about me, my education, skills acquired
 
 ## Contents
 
-- .[About](#about)
-- .[Experience](#experience)
-- .[Education](#education)
-- .[Skill](#skill)
+- [About](#about)
+- [Experience](#experience)
+- [Education](#education)
+- [Skill](#skill)
 
 ## About
 
