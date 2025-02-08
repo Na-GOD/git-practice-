@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Webpage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1>DAVID.</h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>David</span><br> Obu from Nigeria</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------about--------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dd.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="Sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo a voluptatibus, eos exercitationem dolorem nostrum aperiam unde! Commodi architecto nihil omnis repudiandae neque magni inventore magnam. A eligendi delectus debitis?</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Music</span><br>Song writer</li>
+                            <li><span>Comedy</span><br>Comedian/actor</li>
+                            <li><span>Baking</span><br>Skilled Baker</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Self-motivated</li>
+                            <li><span>2019 - 2021</span><br>Stand Up Nigeria Comedy</li>
+                            <li><span>2020 - 2024</span><br>Dxplorer Cake.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>SSCE from Wisdom Commercial Cross River</li>
+                            <li><span>2017</span><br>JSCE from Wisdom Commercial Cross River</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------projects--------------->
+    <div class="Project-container">
+ 
+        <div class="card-wrapper">
+            <h1 class="pro">Project</h1>
+            <ul class="card-list">
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/BakerDav.jpg" alt="card Image" class="card-image">
+                        <p class="badge baker">Baker</p>
+                        <h2 class="card-title"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    </a>
+                </li>
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/agba.jpg" alt="card Image" class="card-image">
+                        <p class="badge housekeeper">Housekeeper</p>
+                        <h2 class="card-title"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    </a>
+                </li>
+                <li class="card-item">
+                    <a href="#" class="card-link">
+                        <img src="images/scott.jpg" alt="card Image" class="card-image">
+                        <p class="badge developer">Developer</p>
+                        <h2 class="card-title"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-------------Contact------------->
+    <section class="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere possimus labore natus dolorum culpa voluptatibus. .</p>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="text">
+                        <h3>Address</h3>
+                        <p>20, Aromire avenue,<br>Allen, Ikeja,<br>Lagos state</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                    <div class="text">
+                        <h3>Phone</h3>
+                        <p>07012546435</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><i class="fa-regular fa-envelope"></i></div>
+                    <div class="text">
+                        <h3>Email</h3>
+                        <p>davidaganyi71@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contactForm">
+                <form>
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send"> 
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }   
+
+    </script>
+</body>
+</html>
